@@ -1,0 +1,2 @@
+add_executable(AllocGuardTests main.cpp)
+target_link_libraries(AllocGuardTests PRIVATE AllocGuard catch)
